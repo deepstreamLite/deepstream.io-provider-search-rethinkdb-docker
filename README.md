@@ -12,6 +12,7 @@ docker run \
 -e DEEPSTREAM_AUTH={"username":"rethinkdb-search"} \
 deepstreamio/provider-search-rethinkdb:latest
 ```
+
 Usage within a `docker-compose.yml` file:
 
 ```
