@@ -10,14 +10,14 @@ Simple usage:
 ```
 docker run \
 -e DEEPSTREAM_AUTH={"username":"rethinkdb-search"} \
-deepstream/provider-search-rethinkdb:latest
+deepstreamio/provider-search-rethinkdb:latest
 ```
 
 Usage within a `docker-compose.yml` file:
 
 ```
 deepstream-search-provider:
-    image: deepstream/provider-search-rethinkdb:latest
+    image: deepstreamio/provider-search-rethinkdb:latest
     environment:
         - DEEPSTREAM_HOST=deepstream
         - DEEPSTREAM_PORT=6021
