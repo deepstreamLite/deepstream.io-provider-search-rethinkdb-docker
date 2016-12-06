@@ -3,6 +3,8 @@ FROM mhart/alpine-node:6
 
 MAINTAINER Phillipp Ohlandt, DeepstreamIO
 
+RUN apk add --update python make g++
+
 # Set default environment variables
 ENV DEEPSTREAM_HOST=localhost \
     DEEPSTREAM_PORT=6020 \
