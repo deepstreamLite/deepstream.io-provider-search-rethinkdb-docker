@@ -20,7 +20,7 @@ deepstream-search-provider:
     image: deepstreamio/provider-search-rethinkdb:latest
     environment:
         - DEEPSTREAM_HOST=deepstream
-        - DEEPSTREAM_PORT=6021
+        - DEEPSTREAM_PORT=6020
         - RETHINKDB_HOST=rethinkdb
         - DEEPSTREAM_AUTH={"username":"rethinkdb-search"}
     depends_on:
